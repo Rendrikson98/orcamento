@@ -1,0 +1,55 @@
+form{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f3f3;
+}
+
+.salvar{
+    margin-left: 15px;
+    margin-top: -20px;
+    width: 100px;;
+    background-color: green;
+    color: white
+}
+
+.imprimir{
+
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 100px;;
+    background-color: rgb(18, 18, 153);
+    color: white
+}
+
+.divtable{
+    margin-top: 15px;
+    width: 98%;
+    height: 300px;
+    background-color: white;
+    border: solid #c2c2c2 1px;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.divtable > .tabela{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.divtable > .tabela > thead > tr > th{
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+}
+
+.divtable > .tabela > tbody > tr > td{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #4f4f4f;
+    padding: 0px 0px 20px 0px;
+}
